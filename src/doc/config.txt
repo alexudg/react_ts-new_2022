@@ -1,0 +1,38 @@
+* Pre-requisites:
+  -win7x64
+  -node 14.17.6 (final special instalation for win7)
+  -npm 6.14.15
+
+* Create:
+  > npx create-react-app react_ts-new_2022 --template typescript 
+  wait 5min
+
+* Run dev:
+  > npm start
+
+* Compile:
+  > npm run build   
+
+  create folders with statics files for dist
+  
+  build
+  |
+  +--static
+  |  |
+  |  +--css
+  |  |  |
+  |  |  +-- ... 
+  |  +--js
+  |  |  |
+  |  |  +-- ...
+  |  +--media
+  |     |
+  |     +-- ...
+  |
+  +--asset-manifest.json
+  +--favicon.ico
+  +--index.html
+  +--logo192.png
+  +--logo512.png
+  +--manifest.json
+  +--robots.txt
